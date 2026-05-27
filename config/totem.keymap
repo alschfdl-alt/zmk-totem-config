@@ -37,6 +37,11 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        PROFILE-CHANGE {
+            bindings = <&tog 1>;
+            key-positions = <0 1 2>;
+        };
     };
 
     macros {
