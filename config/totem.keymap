@@ -150,5 +150,10 @@
             if-layers = <1>;
             then-layer = <5>;
         };
+
+        NAV1 {
+            if-layers = <1>;
+            then-layer = <2>;
+        };
     };
 };
