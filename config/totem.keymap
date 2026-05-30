@@ -39,7 +39,7 @@
         };
 
         PROFILE-CHANGE {
-            bindings = <&tog 1>;
+            bindings = <&tog 5>;
             key-positions = <0 1 2>;
         };
     };
@@ -149,11 +149,6 @@
         NAV1 {
             if-layers = <1>;
             then-layer = <5>;
-        };
-
-        NAV1 {
-            if-layers = <1>;
-            then-layer = <2>;
         };
 
         korean-2 {
