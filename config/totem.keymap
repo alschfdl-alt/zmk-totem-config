@@ -124,7 +124,7 @@
             >;
         };
 
-        layer_5 {
+        korean {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
@@ -154,6 +154,11 @@
         NAV1 {
             if-layers = <1>;
             then-layer = <2>;
+        };
+
+        korean-2 {
+            if-layers = <5>;
+            then-layer = <6>;
         };
     };
 };
